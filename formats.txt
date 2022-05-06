@@ -2,10 +2,6 @@
 
 // comment
 
-/*
-Multi line comment
-*/
-
 // bool, number, float, string 
 const varname type value
 const varname * <JSON stringify>

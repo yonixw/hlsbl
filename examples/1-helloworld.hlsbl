@@ -1,3 +1,3 @@
 const a * "Hello world" // JSON stringify?
 alias log console log
-callvoid log a
+call log a
