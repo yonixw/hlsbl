@@ -1,0 +1,84 @@
+!version 0.1
+
+// comment
+
+/*
+Multi line comment
+*/
+
+// bool, number, float, string 
+const varname type value
+const varname * <JSON stringify>
+ml const varname string <delim> <delim>????<delim>
+ml const varname * <delim> <delim>????<delim>
+
+let result number 0
+let result * 0
+
+// x = x + 2
+setop2 x x + 2 
+setop2 x x >> 2 
+
+// x = !(x)
+setop1 x x !
+
+// x++, x--
+up x
+douwn x
+
+call< result funcname a b c d e f g ...
+call funcname a b c d e f ...
+
+
+
+func name param1 param2 param3 ... {
+async name param1 param2 param3 ... {
+}
+
+if x == "123" {
+}
+
+forloop check action
+    break
+    continue
+    
+    // while: action = donothing
+endfor
+
+isnull result a b c d e f ... // a?.b?.c?.d?.... // not for functions
+aliaso l console log x y z
+aliasf _f function a b c d 
+
+check _a a && b && c ... same level
+check _b _a && false
+
+jump/stayif (check/boolean)
+
+
+asyncext funcname a b c d...
+asyncext<[] result ARRAY funcname a b c d e
+asyncext<? result CHECK funcname a b c d e
+
+ext funcname a b c d...
+ext<[] result ARRAY funcname a b c d e
+ext<? result CHECK funcname a b c d e
+
+
+class X {X
+}X
+
+new Classname a b c d
+new< result Classname a b c d e
+
+------------------------------
+const a = ["hello world"]
+a.push("b")
+console.log(a)
+------------------------------
+const a * "Hello world" // JSON stringify?
+alias log console log
+callvoid log a
+
+if ( (a && b) || ((!c && !d) && (e && !f)))
+
+

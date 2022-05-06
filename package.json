@@ -1,0 +1,11 @@
+{
+  "name": "HLSBL",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "parse1": "deno run --allow-read parse.ts examples/1-helloworld.hlsbl",
+    "parsecache": "deno cache --lock=lock.json --lock-write parse.ts",
+    "testcache": "deno cache --lock=lock.json --lock-write parse.test.ts"
+  }
+}
